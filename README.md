@@ -13,7 +13,7 @@ it inside the named div ```myDiv```:
 var dimensions = $('div#myDiv').textDimensions('Get my dimensions');
 ```
 
-*Are-you-sure* is as simple as it gets:
+*TextDimensions* is as simple as it gets:
 
  * 100% JS with zero dependencies and no external CSS.
  * Easy to understand
@@ -24,7 +24,7 @@ If there is no ```context``` element ($.textDimensions('Sample text')) default f
 ###Usage
 ```javascript
 var dimensions = $('div#myDiv').textDimensions('Get my dimensions');
-alert('width: " + dimensions.width + ", height: " + dimensions.height);
+alert("width: " + dimensions.width + ", height: " + dimensions.height);
 ```
 
 ###Install
@@ -40,9 +40,9 @@ and add it to your page.
 ###License
 The same as JQuery...
 
-  jQuery Plugin: TextDimensions
-  https://github.com/rubensa/jquery.text-dimensions/
+jQuery Plugin: TextDimensions
+https://github.com/rubensa/jquery.text-dimensions/
  
-  Copyright (c) 2013, Ruben Suarez Alvarez http://blog.rubensa.eu.org/
-  Dual licensed under the MIT or GPL Version 2 licenses.
-  http://jquery.org/license
+Copyright (c) 2013, Ruben Suarez Alvarez http://blog.rubensa.eu.org/
+Dual licensed under the MIT or GPL Version 2 licenses.
+http://jquery.org/license
